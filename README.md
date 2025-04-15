@@ -34,10 +34,6 @@ cd GUTSY
 
 ---
 
-
-
----
-
 ## ⚙️ Requirements
 
 Make sure you have the following installed:
@@ -47,24 +43,6 @@ Make sure you have the following installed:
 - GitHub Personal Access Token (classic token with `repo` scope)
 
 Currently, GUTSY uses only Python standard libraries and Docker.
-
----
-
-## 🧪 Usage
-
-```bash
-python3 gutsy.py <github_username> <github_token> [--threads <num>]
-```
-
-### Example:
-
-```bash
-python3 gutsy.py octocat ghp_yourtokenhere --threads 10
-```
-
-### Parameters:
-
-
 
 ---
 
@@ -112,24 +90,6 @@ Make sure Docker is up and running before you start scanning!
 
 ---
 
-## ⚠️ Disclaimer
-
-> This tool is for **educational and authorized testing** purposes only.  
-> Do not scan repositories you don’t own or have permission to analyze.
-
----
-
 ## 🤝 Contributing
 
 Pull requests are welcome! If you spot bugs or have ideas, open an issue or fork the repo.
-
----
-
-## 📜 License
-
-MIT License — see [LICENSE](LICENSE) file.
-```
-
----
-
-You're all set now! Let me know if you want me to generate a nice `requirements.txt`, or add shields.io badges to your README.
