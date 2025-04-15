@@ -1,13 +1,14 @@
-Absolutely, here's **everything in proper `README.md` Markdown format**, ready to drop straight into your `README.md` file:
-
----
-
-```markdown
 # 🐷 GUTSY — GitHub User TruffleHog Scanner
 
 GUTSY is a Python-based tool that scans **all public GitHub repositories of a user** using [TruffleHog](https://github.com/trufflesecurity/trufflehog). It helps find secrets and sensitive data exposed in public repos.
 
----
+Usage
+Run the script with the following command:
+```bash
+python3 gutsy.py <github_username> <github_token> [--threads <num>]
+```
+Example:
+python3 gutsy.py octocat ghp_yourtokenhere --threads 5
 
 ## 🚀 Features
 
