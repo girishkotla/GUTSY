@@ -1,23 +1,19 @@
-# GUTSY
-Tool that looks for leaks of user in Github
+# **GUTSY** – GitHub User Trufflehog Scanner Yo 🌟
 
-
-# **GUTSY** – GitHub User Trufflehog Scanner Yo
-
-**GUTSY** is a tool that helps you scan all public repositories of a GitHub user for secrets like API keys and tokens, using Trufflehog.
+**GUTSY** is a tool for scanning GitHub user repositories to find secrets like API keys and tokens. Built with **Trufflehog** for powerful scanning!
 
 ---
 
-## **Installation**
+## 🚀 **Installation**
 
-1. Clone the repository:
+1. **Clone the repository**:
 
     ```bash
     git clone https://github.com/yourusername/gutsy.git
     cd gutsy
     ```
 
-2. Make the script executable:
+2. **Make the script executable**:
 
     ```bash
     chmod +x scan_user_repos.sh
@@ -25,31 +21,32 @@ Tool that looks for leaks of user in Github
 
 ---
 
-## **Usage**
+## 🔍 **Usage**
 
-1. Run the script:
+1. **Run the script**:
 
     ```bash
     ./scan_user_repos.sh
     ```
 
-2. Enter the GitHub username when prompted:
+2. **Enter the GitHub username**:
 
     ```bash
     Enter GitHub username: girishkotla
     ```
 
-3. The script will scan all public repositories of the user and save the results in a JSON file.
+3. **Scan complete!** The results will be saved in a file called `girishkotla_leaks.json`.
 
 ---
 
-## **Output**
+## 🎯 **Output**
 
-Results will be saved to a file called `girishkotla_leaks.json` in the current directory.
+The results will be saved in a JSON file:  
+`girishkotla_leaks.json`
 
 ---
 
-## **License**
+## 📝 **License**
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
