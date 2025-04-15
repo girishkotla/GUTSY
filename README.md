@@ -17,8 +17,8 @@ python3 gutsy.py <github_username/org> <github_token> [--threads <num>]
 
 Example:
 ```bash
-python3 gutsy.py girishkotla ghp_yourtokenhere --threads 5
-python3 gutsy.py facebook ghp_yourtokenhere --threads 5
+User Name:     $ python3 gutsy.py girishkotla ghp_yourtokenhere --threads 5
+Organization:  $ python3 gutsy.py facebook ghp_yourtokenhere --threads 5
 ````
 
 ## 📦 Installation
