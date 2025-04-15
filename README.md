@@ -7,8 +7,22 @@ Run the script with the following command:
 ```bash
 python3 gutsy.py <github_username> <github_token> [--threads <num>]
 ```
+- `<github_username>`: GitHub username to scan
+- `<github_token>`: GitHub personal access token
+- `--threads <num>`: *(Optional)* Number of threads (default: 5)
+
 Example:
+```bash
 python3 gutsy.py octocat ghp_yourtokenhere --threads 5
+````
+
+📦 Installation
+```bash
+git clone https://github.com/girishkotla/GUTSY.git
+cd GUTSY
+```
+
+
 
 ## 🚀 Features
 
@@ -20,14 +34,7 @@ python3 gutsy.py octocat ghp_yourtokenhere --threads 5
 
 ---
 
-## 📦 Installation
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/girishkotla/GUTSY.git
-cd GUTSY
-```
 
 ---
 
@@ -38,12 +45,6 @@ Make sure you have the following installed:
 - [Python 3.x](https://www.python.org/downloads/)
 - [Docker](https://docs.docker.com/get-docker/) (installed and running)
 - GitHub Personal Access Token (classic token with `repo` scope)
-
-To install dependencies (if any are added later), use:
-
-```bash
-pip install -r requirements.txt
-```
 
 Currently, GUTSY uses only Python standard libraries and Docker.
 
@@ -63,9 +64,7 @@ python3 gutsy.py octocat ghp_yourtokenhere --threads 10
 
 ### Parameters:
 
-- `<github_username>`: GitHub username to scan
-- `<github_token>`: GitHub personal access token
-- `--threads <num>`: *(Optional)* Number of threads (default: 5)
+
 
 ---
 
