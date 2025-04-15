@@ -1,5 +1,7 @@
 # 🐷 GUTSY — GitHub User TruffleHog Scanner
 
+![Pig Animation](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpikbest.com%2Fbackgrounds%2Fqiantu-cartoon-wind-pig-year-glowing-yellow-background-banner_2753620.html&psig=AOvVaw0tpQttQKEbXAxsOirolfQ1&ust=1744838537211000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOifoZ382owDFQAAAAAdAAAAABAE)
+
 GUTSY is a Python-based tool that scans **all public GitHub repositories of a user** using [TruffleHog](https://github.com/trufflesecurity/trufflehog). It helps find secrets and sensitive data exposed in public repos.
 
 Usage
