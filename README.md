@@ -9,7 +9,7 @@ GUTSY is a Python-based tool that scans **all public GitHub repositories of a us
 ## Usage
 Run the script with the following command:
 ```bash
-python3 gutsy.py <github_username> <github_token> [--threads <num>]
+python3 gutsy.py <github_username/org> <github_token> [--threads <num>]
 ```
 - `<github_username>`: GitHub username to scan
 - `<github_token>`: GitHub personal access token
@@ -17,7 +17,8 @@ python3 gutsy.py <github_username> <github_token> [--threads <num>]
 
 Example:
 ```bash
-python3 gutsy.py octocat ghp_yourtokenhere --threads 5
+python3 gutsy.py girishkotla ghp_yourtokenhere --threads 5
+python3 gutsy.py facebook ghp_yourtokenhere --threads 5
 ````
 
 ## 📦 Installation
