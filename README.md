@@ -1,4 +1,4 @@
-# 🐷 GUTSY — GitHub User TruffleHog Scanner
+# 🐷 GUTSY — GitHub User/Org TruffleHog Scanner
 
 | **G** | **U** | **T** | **S** | **Y** |
 |-------|-------|-------|-------|-------|
